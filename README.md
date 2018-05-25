@@ -97,7 +97,7 @@ You can donate Bitcoins or Ethereum to me for maintaining the project.
 When I find something online that I think I can use, implement or otherwise lean from when building my project I will show it here. There is of course a couple of major references/sources that keeps popping up again and again. These are listed below to.
 
 > Data Sheets
- * [ESP8266-12H DataSheet](ESP8266-12H DataSheet.pdf)
+ * [ESP8266-12H DataSheet](ESP8266-12H-DataSheet.pdf)
  * [MAX4465-MAX4469 DataSheet](MAX4465-MAX4469.pdf)
 
 > Web sites
@@ -108,8 +108,8 @@ When I find something online that I think I can use, implement or otherwise lean
 
 ## Reporting Bugs
 
-Report all issues in the [issues tracker](https://github.com/kawaiipantsu/twitch-stats-bot/issues).
+Report all issues in the [issues tracker](https://github.com/kawaiipantsu/wifidbmeter/issues).
 
 ## Subscribe
 
-Stay tuned to new releases with the project [feeds](https://github.com/kawaiipantsu/twitch-stats-bot/releases.atom).
+Stay tuned to new releases with the project [feeds](https://github.com/kawaiipantsu/wifidbmeter/releases.atom).
