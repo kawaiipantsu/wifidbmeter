@@ -37,6 +37,8 @@ I'm making the code so that it can connect to a list of predefined accesspoints 
 
 As soon as it has internet access it will begin to send the dB meter values to the backend server for post-processing. If the backend server or the http call fails in any way the unit will re-initialise and begin the wifi network scanning process again after a while.
 
+I first wanted to use the Max 4466 (electret microphone amplifier) but i have now ordered a Max 9814 instead. It seems it's better quality and better op-amp and variable and automatic gain. So i can't wait to implement this.
+
 It's faily simple, yet got some nice error checking rutines and features.
 
 *My TODO list*
@@ -50,7 +52,7 @@ It's faily simple, yet got some nice error checking rutines and features.
 - [ ] Streamline "known" wifi networks and how they are added
 - [x] Look into the calculation of dB
 - [ ] Find out dB SPL, or sound pressure level
-- [ ] dB = 20 * log10(amplitude) - amplitude vs mx4466?
+- [ ] dB = 20 * log10(amplitude) - amplitude vs mx9814?
 - [ ] 20 * log10 (V_noise / V_ref) + dB_ref - We have mic+opamp data sheet ?
 - [ ] External SPL meter to calibrate your dB meter
 - [ ] Messure reference amplification via 500 vs 1000 adc values
@@ -71,6 +73,7 @@ It's faily simple, yet got some nice error checking rutines and features.
 - [ ] Use IP adresses and not domain names ? Comfort / Setup vs Preformence ?
 - [ ] Idea, make it connect to a predefines "setup" wifi network for easy external configuration ? 
 - [ ] Idea, have it fetch configuration from a remote url and reboot ?
+- [x] Changed from the MAX4466 to MAX9814 
 
 
 ## Apache / Database backend (data logging)
@@ -99,6 +102,7 @@ When I find something online that I think I can use, implement or otherwise lean
 > Data Sheets
  * [ESP8266-12H DataSheet](ESP8266-12H-DataSheet.pdf)
  * [MAX4465-MAX4469 DataSheet](MAX4465-MAX4469.pdf)
+ * [MAX9814 DataSheet](MAX9814.pdf)
 
 > Web sites
  * [Shenzhen Hysiry Technology Co., Ltd](http://en.hysiry.com)
