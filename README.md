@@ -2,12 +2,18 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/davidbl.svg?style=social&label=Follow)](https://twitter.com/davidbl) [![GitHub issues](https://img.shields.io/github/issues/kawaiipantsu/wifidbmeter.svg)](https://github.com/kawaiipantsu/wifidbmeter/issues) [![GitHub closed issues](https://img.shields.io/github/issues-closed/kawaiipantsu/wifidbmeter.svg)](https://github.com/kawaiipantsu/wifidbmeter/issues) [![GitHub license](https://img.shields.io/github/license/kawaiipantsu/wifidbmeter.svg)](https://github.com/kawaiipantsu/wifidbmeter/blob/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/kawaiipantsu/wifidbmeter.svg)](https://github.com/kawaiipantsu/wifidbmeter/network) [![GitHub stars](https://img.shields.io/github/stars/kawaiipantsu/wifidbmeter.svg)](https://github.com/kawaiipantsu/wifidbmeter/stargazers)
 > Metering sound pressure (dB) and data logging via wifi to database backend
 
+> **XSOURCE D1 Mini**
+>
+> This is the XSOURCE D1 Mini board, based on ESP8266 microcontroller
 ![XCSOURCE D1 Mini](xsource-d1-mini.png)
 
 This is a simple little avr c/c++ project that i'm working on as i want to datalog the sound pressure (dB) at my appartment's balcony as there is construction going on outside. I simply wanted to see at what hours they worked and at what dB levels as they where not allowed to work at specific hours while being louder than 75dB.
 
 It did not take long for me to settle on some ESP8266 spinoff variation that accepts avr C/C++, it has all i need. My goal was to use a analog data pin to read a adc value from a electret microphone amplifier like the Maxim MX4466 op-amp amplifier. To choose the correct ESP board is actually harder than you think, there are so many spinoff's from the original Wemos D1 mini. I ordered via Amazon (DE) and just took the first and cheapest i could find. This ended up being XCSOURCE® D1 Mini (TE441-DE). It was based on a mini Nodemcu Lua WiFi that used a ESP8266-12H from Shenzhen Hysiry Technology Co., Ltd. Again it's important to know that there are also a lot of the ESP8266 boards out there...
 
+> **ESP8266-12H**
+>
+> This is the ESP8266 microcontroller from Shenzhen Hysiry Technology Co., Ltd
 ![ESP8266-12H](esp8266.png)
 
 > Now lets build it, programm it and use it!
