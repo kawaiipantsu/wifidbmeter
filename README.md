@@ -68,6 +68,10 @@ It's faily simple, yet got some nice error checking rutines and features.
 - [ ] Find a way to "clear" the added AP's
 - [x] Make a disconnect fucntion / Recycle function
 - [x] Find out how to set hostname for better DHCP/Dynamic DNS compatability
+- [ ] Use IP adresses and not domain names ? Comfort / Setup vs Preformence ?
+- [ ] Idea, make it connect to a predefines "setup" wifi network for easy external configuration ? 
+- [ ] Idea, have it fetch configuration from a remote url and reboot ?
+
 
 ## Apache / Database backend (data logging)
 
